@@ -54,10 +54,8 @@ def merge_sort(myList) -> None:
 nums1 = []
 nums2 = []
 for item in input().split(', '):
-  nitem))
+  nums1.append(int(item))
 for item in input().split(', '):
   nums2.append(int(item))
 m = int(input())
 n = int(input())
-
-print(merge(nums1, m, nums2, n))
